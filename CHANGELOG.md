@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-11-25 — Diagnostic Interpretation Update
+
+- Added clarification of firmware initialization observations.
+- Distinguished processor state transitions from confirmed instruction execution.
+- Clarified the limitations of HALT as evidence of successful firmware execution.
+- Clarified the need to validate diagnostic values for the target GPU.
+- No new performance improvement has been demonstrated.
+
+
 This document records significant research milestones and documentation updates for RTX30Probe-GA106.
 
 ## 2026-11-24 — Initial Repository Documentation

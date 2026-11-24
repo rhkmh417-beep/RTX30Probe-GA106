@@ -33,6 +33,15 @@ Successful FWSEC execution has not been confirmed.
 
 The underlying cause of the observed initialization behavior remains unresolved.
 
+### Additional Notes on Diagnostic Interpretation
+
+- Observed processor state transitions must be distinguished from confirmed instruction execution.
+- A transition to a halted state alone does not demonstrate successful FWSEC execution or completion.
+- Numerical diagnostic observations should not be treated as definitive status values until their meaning has been validated for the target GPU.
+- Technical information concerning other GPUs and public driver implementations requires separate evaluation before being applied to GA106.
+
+The current observations do not establish successful FWSEC execution.
+
 ## 4. Performance Baseline
 
 | Precision | Previously Measured Performance |
@@ -78,4 +87,4 @@ Several diagnostic objectives have been achieved, but firmware initialization be
 
 No successful performance modification is claimed.
 
-Last updated: November 24, 2026.
+Last updated: November 25, 2026.
